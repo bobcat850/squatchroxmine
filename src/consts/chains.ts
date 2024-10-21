@@ -1,9 +1,9 @@
-import { avalanche, ethereum, polygon,  } from "thirdweb";
+import { polygon } from "thirdweb";
 
 /**
  * All chains should be exported from this file
  */
-export { avalanche, ethereum, polygon } from "thirdweb/chains";
+export { polygon } from "thirdweb/chains";
 
 /**
  * Define any custom chain using `defineChain`
